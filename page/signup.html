@@ -25,12 +25,20 @@
             <div class="input-list">
                 <input type="text" name="text" class="input" pattern="\d+" placeholder="Mot de passe">
             </div>
-            <button class="btn" onclick="document.location.href='./login.html' ">S'inscrire</button>
+            <button id="btn" >S'inscrire</button>
             </div>
 
             <a href="login.html">Se connecter ?</a>
         </form>
     </div>
-    <script src="js/script.js"></script>
+    <script>
+        let link = document.getElementById('btn');
+        console.log(link.value);
+        link.addEventListener("click", function (e) {
+            e.preventDefault();
+        window.location.href = 'login.html';
+        });
+
+    </script>
 </body>
 </html>
