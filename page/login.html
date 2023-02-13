@@ -19,13 +19,22 @@
             <div class="input-list">
                 <input type="text" name="text" class="input" pattern="\d+" placeholder="Mot de passe">
             </div>
-            <button  class="btn" onclick="document.location.href='../index.html' ">Connexion</button>
+            <input  type="submit" id="btn" value="Connexion">
             </div>
 
             <a href="signup.html">Créer un compte ?</a>
         </form>
     </div>
 
-    <script src="../js/script.js"></script>
+    <script>
+        let link = document.getElementById('btn');
+        console.log(link.value);
+        link.addEventListener("click", function (e) {
+            e.preventDefault();
+        window.location.href = '../index.html';
+        });
+
+    </script>
+    <!-- <script src="../js/script.js"></script> -->
 </body>
 </html>

@@ -36,7 +36,7 @@ li{
     margin-left: 10px;
 }
 header{
-    position: absolute;
+    
     width: 100%;
     background-color: #F96E3F;
     height: 70px;
@@ -47,7 +47,7 @@ header{
     align-items: center;
     max-width: 1140px;
     margin: 0 auto;
-  
+    padding: 20px;
 }
 .menu {
     display: flex;
@@ -70,28 +70,29 @@ header{
 .font-black{
     background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) , url('../image/acc.jpg') ;
     background-size: cover;
-    width: 100%;
-    height: 1000px;
+    max-width: 100%;
+    height: 110vh;
 }
-.imageAcc{
+/* .imageAcc{
 
     width: 100%;
     height:400px ;
     float: right;
-}
+} */
+
 .textAcc{
-    width: 800px;
-    position: relative;
+    width: 1120px;
     margin-left: 30px;
-    top: 300px;
-    left: 300px;
     text-align: center;
+    position: relative;
+    top: 300px;
+    left: 400px;
+
 }
 .txtAcc{
-    font-size: 50px;
+    font-size: 80px;
     margin-bottom: 50px;
     color: white;
-    
 }
 .specia{
     color: #F96E3F;
@@ -123,16 +124,20 @@ header{
     overflow-x: scroll;
     overflow-y: hidden;
     -ms-overflow-style: none;
-    overflow: -moz-scrollbars-none;
     display: flex;
-    margin-bottom: 50px;
+    margin-left: 50px;
+    width: 1140px;
+    overflow: auto;
+    margin: 0 auto;
+    margin-bottom: 30px;
 }
 .cardElement::-webkit-scrollbar {
     display: none;
   }
+
 .cardList{
-    max-width: 400px;
-    max-height: 400px;
+    width: 25%;
+    height: 360px;
     margin: 20px;
     margin-bottom: 20px;
     background-color: white;
@@ -175,23 +180,49 @@ header{
 .ico{
     display: flex;
     justify-content: space-between;
-    width: 150vh;
-    top: 1200px;
+    width: 1140px;
     position: absolute;
+    top: 1400px;
     margin: 0 auto;
+   
 }
 .ico i{
     color: #F96E3F;
 }
-.btnplus{
-    float: right;
-}
+
 .btnp{
+    float: right;
     width: 150px;
     height: 50px;
     border: 2px #F96E3F solid;
     font-size: 25px;
 }
+.IconColor{
+    color: #F96E3F;
+}
 /* fin list pub */
 
 
+ /* début footer */
+
+footer{
+    margin-top: 150px;
+    width: 100%;
+    height: 100px;
+    background-color: #D9D9D9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .foote{
+
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;justify-content: space-between;
+ }
+ /* fin footer */
+
+
+ @media screen  {
+    
+ }
