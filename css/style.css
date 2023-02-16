@@ -23,8 +23,7 @@ main{
 }
 h1,
 h2,
-h3,
-h4 {
+h3{
     color: white;
 }
 
@@ -221,6 +220,7 @@ header{
 .IconColor{
     color: #F96E3F;
 }
+
 /* fin list pub */
 
 /* debut all boultique css  */
@@ -447,6 +447,88 @@ top: 140rem;
     text-align: center;
     margin-bottom: 0.2rem;
     padding: 10px;
+}
+.imgScrol{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 100%;
+}
+.scrollelemnt{
+    width: 100%;
+    height: 20rem;
+    background-color: rgba(69, 69, 69, 0.773);
+}
+.scrolList{
+    width: 71rem;
+    margin: 0 auto;
+    display: flex;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 3rem;
+}
+.alliconClic{
+    width: 25rem;
+    margin: 0 auto;
+}
+.allclic1{
+    margin-right: 10rem;
+}
+.clico{
+    display: flex;
+    justify-content: space-around;
+    width: 10rem;
+    margin:0 auto;
+    background-color: black;
+}
+.callelem{
+display: flex;
+width: 15rem;
+justify-content: space-around;
+align-items: center;
+margin-right: 2rem;
+}
+.callList{
+    display: flex;
+    width: 72.20rem;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 5rem;
+   
+}
+.cita1{
+    width: 30rem;
+    height: 30rem;
+   
+    margin-right: 2rem;
+    border-radius: 2rem;
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) , url('../image/cita1.jpeg') ;
+}
+.cita2{
+    width: 30rem;
+    height: 30rem;
+    background-color: #af2c2c;
+    margin-right: 2rem;
+    border-radius: 2rem;
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) , url('../image/cita2.jpeg') ;
+}
+.citation{
+    width: 72rem;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 3rem;
+   
+}
+.partenaire{
+    width: 72rem;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 2rem;
+}
+.parte{
+    height: 5rem;
+    width: 12rem;
 }
 /* fin all boultique css  */
 
