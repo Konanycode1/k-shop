@@ -464,8 +464,12 @@ top: 140rem;
     display: flex;
     overflow: auto;
     white-space: nowrap;
+    -ms-overflow-style: none;
     padding: 3rem;
 }
+.scrolList::-webkit-scrollbar {
+    display: none;
+  }
 .alliconClic{
     width: 25rem;
     margin: 0 auto;
@@ -478,7 +482,8 @@ top: 140rem;
     justify-content: space-around;
     width: 10rem;
     margin:0 auto;
-    background-color: black;
+    background-color:#D9D9D9;
+    border-radius: 5rem;
 }
 .callelem{
 display: flex;
@@ -502,6 +507,18 @@ margin-right: 2rem;
     margin-right: 2rem;
     border-radius: 2rem;
     background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) , url('../image/cita1.jpeg') ;
+}
+.ci1{
+    padding-top: 10rem;
+    text-align: center;
+    font-size: 1.7rem;
+    color: white;
+}
+.ci2{
+    padding-top: 10rem;
+    text-align: center;
+    font-size: 1.7rem;
+    color: white;
 }
 .cita2{
     width: 30rem;
