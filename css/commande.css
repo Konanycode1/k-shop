@@ -1,0 +1,166 @@
+body{
+    margin: 0px;
+    font-family: "Inria Serif", serif ;
+    flex-direction: column;
+    padding: 0;
+    background-color: #d7d7d7;
+}
+
+.userimg{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-right: 20px;
+}
+.navCom{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.userBloc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.kshop{
+    color: #f96e3f;
+    text-decoration: none;
+}
+.navLink{
+  
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1px;
+
+}
+ul li{
+    list-style-type: none;
+    margin-bottom: 20px;
+    
+}
+li a{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 20px;
+    font-size: 17px;
+    
+}
+.linkbloc{
+    float: left;
+   margin-top: 200px;
+   background-color: #f96e3f;
+   height: 200px;
+   width: 200px;
+   text-align: center;
+  
+}
+.formCom{
+   width: 1140px;
+   margin: 0 auto;
+   margin-top: 150px;
+    
+}
+form{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.forms-elemen{
+    margin-bottom: 20px;
+}
+.forms-elemen input{
+    width: 350px;
+    height: 40px;
+    border: none;
+    border-bottom: 3px solid #f96e3f ;
+    background-color: rgb(216, 216, 216);
+}
+.forms-elemen input::placeholder{
+    color: black;
+    text-align: center ;
+}
+.formDiv{
+    background-color: white;
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    box-shadow: 5px 5px 5px 5px #fee4db;
+    
+}
+.title{
+    padding-top: 10px;
+    margin-bottom: 20px;
+  
+}
+
+button{
+    width: 150px;
+    height: 40px;
+    background-color: #f96e3f;
+    border:none;
+    color: white;
+    box-shadow: 5px 5px 5px 5px #c3c3c3;
+}
+.imgScrol {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 100%;
+    margin-right: 20px;
+  }
+  .scrollelemnt {
+    width: 100%;
+    height: 20rem;
+    margin-top: 30px;
+  }
+  .scrolList {
+    width: 72rem;
+    margin: 0 auto;
+    display: flex;
+    overflow: auto;
+    white-space: nowrap;
+    -ms-overflow-style: none;
+    padding: 3rem;
+  }
+  .scrolList::-webkit-scrollbar {
+    display: none;
+  }
+ 
+  .allclic1 {
+    display: flex;
+   float: left;
+   margin-left: 1px;
+   margin-top: 90px;
+  }
+  .allclic2 {
+   margin-top: 90px;
+    display: flex;
+    float: right;
+    margin-right: 50px;
+   }
+  .clico {
+    display: flex;
+    justify-content: space-around;
+    width: 10rem;
+    margin: 0 auto;
+    border-radius: 5rem;
+  }
+  footer {
+    padding-top: 10px;
+    width: 100%;
+    height: 100px;
+    background-color: #989898;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .foote {
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+  }
