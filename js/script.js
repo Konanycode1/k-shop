@@ -23,6 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
       clic.classList.toggle("IconColor");
     })
   );
+   
 
 });
 

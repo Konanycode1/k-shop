@@ -10,20 +10,20 @@
 <body class="bod">
 
     <div class="signBloc">
-        <form action="" class="forms-sign">
+        <form action="" class="forms-sign" id="formsSign">
             <div class="form-elem">
                 <h3 class="shop">K-SHOP</h3>
             <div class="input-list">
-                <input type="text" name="text" class="input" pattern="\d+" placeholder="Nom & Prénom">
+                <input type="text" id="nomPrenom" name="text" class="input" placeholder="Nom & Prénom">
             </div>
             <div class="input-list">
-                <input type="text" name="text" class="input" pattern="\d+" placeholder="Numéro de téléphone">
+                <input type="text" id="tel" name="text" class="input"  placeholder="Numéro de téléphone">
             </div>
             <div class="input-list">
-                <input type="text" name="text" class="input" pattern="\d+" placeholder="Email">
+                <input type="text" id="email" name="text" class="input"  placeholder="Email">
             </div>
             <div class="input-list">
-                <input type="text" name="text" class="input" pattern="\d+" placeholder="Mot de passe">
+                <input type="text" id="mdp" name="text" class="input"  placeholder="Mot de passe">
             </div>
             <button id="btn" >S'inscrire</button>
             </div>
@@ -31,14 +31,16 @@
             <a href="login.html">Se connecter ?</a>
         </form>
     </div>
+    <script src="../js/signup.js"></script>
     <script>
-        let link = document.getElementById('btn');
-        console.log(link.value);
-        link.addEventListener("click", function (e) {
-            e.preventDefault();
-        window.location.href = 'login.html';
-        });
+        // let link = document.getElementById('btn');
+        // console.log(link.value);
+        // link.addEventListener("click", function (e) {
+        //     e.preventDefault();
+        // window.location.href = 'login.html';
+        // });
 
     </script>
+   
 </body>
 </html>
