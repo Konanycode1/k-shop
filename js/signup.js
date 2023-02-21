@@ -19,28 +19,36 @@ document.addEventListener("DOMContentLoaded", ()=>{
       e.preventDefault();
     });
     btn.addEventListener("click", ()=>{
-      let identificate = {
-       nomPrenom: nomPrenom.value,
-       tel: tel.value,
-       email: email.value,
-       mdp: mdp.value
-      }
-      let isFount = false;
-      identificate = JSON.stringify(identificate);
-      if (mdp.value.length < 8 ){
-       alert('Mot de passe trop court');
-      }
-      else{
-           let verif= setItem('user', identificate);
-           isFount = true;   
-      }
-      if (isFount === true){
-            nomPrenom.value = "";
-            tel.value = "";
-            email.value = "";
-            mdp.value = ""
-            window.location.href = 'login.html';
-      }
+        if( nomPrenom.value === "" || tel.value === "" || email.value === "" || mdp.value === ""){
+            alert("Veuillez verifier tout vos champs SVP!!! ")
+        }
+        else{
+            let identificate = {
+                nomPrenom: nomPrenom.value,
+                tel: tel.value,
+                email: email.value,
+                mdp: mdp.value
+               }
+               let isFount = false;
+               identificate = JSON.stringify(identificate);
+               if (mdp.value.length < 8 ){
+                alert('Mot de passe trop court');
+               }
+               else{
+                    let verif= setItem('user', identificate);
+                    isFount = true; 
+                      
+               }
+               if (isFount === true){
+                     nomPrenom.value = "";
+                     tel.value = "";
+                     email.value = "";
+                     mdp.value = ""
+                     window.location.href = 'login.html';
+               }
+            
+        }
     });
+      
 })
 

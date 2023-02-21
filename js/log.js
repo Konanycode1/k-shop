@@ -16,9 +16,12 @@ document.addEventListener("DOMContentLoaded", ()=>{
     })
     send.addEventListener("click", ()=>{
         valeur = getItem("user");
+        if(valeur === null){
+            window.location.href = 'signup.html';
+        }
         let data = JSON.parse(valeur);
-        if(username.value == data.email){
-            if(password.value == data.mdp){
+        if(username.value === data.email){
+            if(password.value === data.mdp){
                 window.location.href = '../index.html';
             }
             else{
