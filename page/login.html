@@ -10,23 +10,25 @@
 <body class="bod">
 
     <div class="logBloc">
-        <form action="" class="forms">
+        <form action="" class="forms" id="formsLog">
             <div class="form-elem">
                 <h3 class="shop">K-SHOP</h3>
             <div class="input-list">
-                <input type="text" name="text" class="input" pattern="\d+" placeholder="Votre addresse Email">
+                <input type="email" name="text" class="input" id="username"  placeholder="Votre addresse Email">
             </div>
             <div class="input-list">
-                <input type="text" name="text" class="input" pattern="\d+" placeholder="Mot de passe">
+                <input type="password" name="text" class="input" id="mdp"  placeholder="Mot de passe">
             </div>
-            <input  type="submit" id="btn" value="Connexion">
+            <input  type="submit" id="send" value="Connexion">
             </div>
 
             <a href="signup.html">Créer un compte ?</a>
         </form>
     </div>
 
-    <script>
+    <p style="text-align: center; color: red; font-size:25px;" id="para">Mot de passe oublié</p>
+
+    <!-- <script>
         let link = document.getElementById('btn');
         console.log(link.value);
         link.addEventListener("click", function (e) {
@@ -34,7 +36,7 @@
         window.location.href = '../index.html';
         });
 
-    </script>
-    <script src="../js/script.js"></script>
+    </script> -->
+    <script src="../js/log.js"></script>
 </body>
 </html>
