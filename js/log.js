@@ -30,9 +30,6 @@ document.addEventListener("DOMContentLoaded", ()=>{
         }
         else{
             para.textContent = "Email incorrect!!!, Veuillez vérifier votre mail svp."
-        }
-        
+        }    
     })
-
-
 })
