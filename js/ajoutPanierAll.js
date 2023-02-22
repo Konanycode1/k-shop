@@ -69,4 +69,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
   ajouteNewCosme();
+
+
+  
 });

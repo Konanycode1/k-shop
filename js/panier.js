@@ -8,10 +8,10 @@ nombre.innerHTML = valeur?.length;
 
 let i;
 for (i = 0; i <= valeur.length; i++) {
-  if( valeur[i].nomprod ===  valeur[i].nomprod){
-    let nombreNom = valeur[i].nomprod.length;
-    console.log(nombreNom)
-  }
+  // if( valeur[i].nomprod ===  valeur[i].nomprod){
+  //   let nombreNom = valeur[i].nomprod.length;
+  //   console.log(nombreNom)
+  // }
   let text = `
     <tr>
     <td> ${valeur[i].nomprod}</td>
@@ -21,3 +21,4 @@ for (i = 0; i <= valeur.length; i++) {
     </tr>`;
     val.innerHTML += text;
 }
+

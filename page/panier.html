@@ -56,6 +56,9 @@
             >Connexion</a
           >
         </div>
+        <div>
+          <button type="button " id="btndeconn" >Déconnexion</button>
+        </div>
       </div>
     </header>
     <main class="mainDiv">
@@ -64,7 +67,7 @@
         <table id="customers">
         </table>
         <div class="btnDiv">
-          <button type="submit" class="btnn">Passer la commande</button>
+          <button type="submit" id="redir"  class="btnn">Passer la commande</button>
         </div>
     </main>
     <footer>
@@ -74,6 +77,21 @@
       </div>
     </footer>
     <!-- <script src="../js/script.js"></script> -->
+    <script>
+            
+      let redir = document.getElementById("redir");
+      redir.addEventListener("click", ()=>{
+        window.location.href = "https://wa.me/0141822918";
+      })
+      let btndeconn = document.getElementById("btndeconn");
+
+      btndeconn.addEventListener("click", (e)=>{
+        window.location.href = "./login.html";
+
+      })
+
+      
+</script>
     <script src="../js/panier.js"></script>
   </body>
 </html>

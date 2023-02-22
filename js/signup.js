@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
     const tel = document.getElementById('tel');
     const email= document.getElementById('email');
     const mdp = document.getElementById('mdp');
-    let btn = document.getElementById('btn');
+    let btn = document.getElementById('send');
     
     function setItem(cle, data) 
     {
@@ -49,6 +49,8 @@ document.addEventListener("DOMContentLoaded", ()=>{
             
         }
     });
-      
+ 
+
+
 })
 

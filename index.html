@@ -39,6 +39,9 @@
             >
           <a href="#" id="userUtil" class="log">Connexion</a>
         </div>
+        <div>
+          <button type="button " id="btndeconn" >Déconnexion</button>
+        </div>
       </div>
     </header>
     <!-- section accueil -->
@@ -351,6 +354,15 @@
         <div class="market"><p>Copyright &copy; by konanyCode 2023</p></div>
       </div>
     </footer>
+    <script>
+             
+          let btndeconn = document.getElementById("btndeconn");
+
+          btndeconn.addEventListener("click", ()=>{
+            window.location.href = "page/login.html";
+
+          })
+    </script>
     <script src="./js/script.js"></script>
     <script src="./js/authen.js"></script>
     <script src="./js/AjoutPanier.js"></script>
