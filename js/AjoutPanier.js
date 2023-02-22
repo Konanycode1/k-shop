@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
       clic.addEventListener("click", (e) => {
         let parent = clic.closest(".cardList");
         let nomprod = parent.querySelector(".nomProd");
-        let prix = parent.querySelector(".price span");
+        let prix = parent.querySelector(".price");
         let cate = parent.querySelector(".infoListPro p");
         let donnee = [];
 
@@ -42,14 +42,16 @@ document.addEventListener("DOMContentLoaded", () => {
           prix: prix.textContent,
           cate: cate.textContent,
         };
+        console.log(data)
         let recup = getItem("valeur");
         if (recup === null) {
+
           recup.push(data);
-          setItem("valeur", JSON.stringify(donnee));
+          setItem("valeur", JSON.stringify(recup));
           isPass = true;
           recuperation();
         } else {
-        //   recup = JSON.parse(recup);
+          recup = JSON.parse(recup);
           recup.push(data);
           setItem("valeur", JSON.stringify(recup));
           isPass = true;

@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
                 alert('Mot de passe trop court');
                }
                else{
-                    let verif= setItem('user', identificate);
+                    setItem('user', identificate);
                     isFount = true; 
                       
                }

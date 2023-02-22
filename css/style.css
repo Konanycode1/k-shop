@@ -78,16 +78,16 @@ header {
   background-repeat: no-repeat;
   background-origin: padding-box;
   width: 100%;
-  height: 110vh;
-  padding-top: 8rem;
+  height: 95vh;
   margin: 0 auto;
   display: flex;
   justify-content: space-around;
 }
 .accText{
     display: flex;
-    justify-content: space-around;
-    width: 1140px;
+    justify-content: space-between;
+    width: 1400px;
+    padding-top: 20rem;
 }
 /* .imageAcc{
 
@@ -204,8 +204,8 @@ header {
   justify-content: space-between;
   width: 1140px;
   position: absolute;
-  top: 95rem;
-  margin: 0 auto;
+  top: 78rem;
+  
 }
 .ico i {
   color: #f96e3f;
@@ -647,6 +647,1493 @@ footer {
 }
 /* all-footer */
 /* fin footer */
+@media screen and (max-width:2000px) {
+  body{
+    font-family: "Inria Serif", serif ;
+    flex-direction: column;
+    padding: 0;
+    background-color: #d7d7d7;
+  }
+  .svg {
+    width: 25px;
+    height: 25px;
+    color: white;
+    fill: #d9d9d9;
+  }
+  main {
+    max-width: 71.25rem;
+    margin: 0 auto;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  h1,
+  h2,
+  h3 {
+    color: white;
+  }
+  
+  a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+  li {
+    list-style-type: none;
+    margin-left: 30px;
+  }
+  .logo {
+    margin-left: 10px;
+    align-items: center;
+  }
+  header {
+    width: 100%;
+    background-color: #f96e3f;
+    height: 70px;
+    top: 0px;
+    position: sticky;
+  }
+  .narbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 71.25rem;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .menu {
+    display: flex;
+    margin: 10px;
+  }
+  .menu-list {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+  }
+  .panier {
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+  }
+  .log {
+    margin-right: 10px;
+    display: inline-flex;
+    text-align: center;
+  }
+  /* section accueil */
+  .font-black {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../image/women3.jpeg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-origin: padding-box;
+    width: 100%;
+    height: 95vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+  }
+  .accText{
+      display: flex;
+      justify-content: space-between;
+      width: 1400px;
+      padding-top: 20rem;
+  }
+  /* .imageAcc{
+  
+      width: 100%;
+      height:400px ;
+      float: right;
+  } */
+  
+  .textAcc {
+  
+    text-align: center;
+    width: 50rem;
+  }
+  .txtAcc {
+    font-size: 60px;
+    padding-top: 20px;
+    margin-bottom: 50px;
+    color: white;
+  }
+  .imgCir {
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    border: 5px solid #f96e3f;
+  }
+  .specia {
+    color: #f96e3f;
+  }
+  .btnSub {
+    width: 150px;
+    height: 50px;
+    font-size: medium;
+    border: none;
+    border-radius: 5px;
+    background-color: #f96e3f;
+    color: white;
+  }
+  
+  /* Fin section accueil */
+  
+  /* debut list pub */
+  .list {
+    padding-top: 30px;
+  }
+  .imag img {
+    width: 200px;
+    height: 150px;
+  }
+  .imag {
+    text-align: center;
+  }
+  .cardElement {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    -ms-overflow-style: none;
+    display: flex;
+    margin-left: 50px;
+    width: 1140px;
+    overflow: auto;
+    margin: 0 auto;
+  }
+  .cardElement::-webkit-scrollbar {
+    display: none;
+  }
+  .cardList {
+    width: 25%;
+    height: 360px;
+    margin: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px 10px rgb(197, 197, 197);
+  }
+  .prixElemnt{
+    display: flex;
+    align-items: center;
+    
+  }
+  .like {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  .pourc {
+    width: 50px;
+    background-color: #f96e3f;
+    height: 20px;
+    text-align: center;
+    color: white;
+  }
+  .infoListPro {
+    display: block;
+    justify-content: center;
+    margin-bottom: 5px;
+    padding: 20px;
+    width: 150px;
+  }
+  .infoPa {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 20px;
+  }
+  .left {
+    float: left;
+    position: absolute;
+  }
+  
+  .ico {
+    display: flex;
+    justify-content: space-between;
+    width: 1140px;
+    position: absolute;
+    top: 78rem;
+    
+  }
+  .ico i {
+    color: #f96e3f;
+  }
+  
+  .btnp {
+    float: right;
+    width: 150px;
+    height: 50px;
+    border: 2px #f96e3f solid;
+    font-size: 25px;
+  }
+  .IconColor {
+    color: #f96e3f;
+  }
+  
+  /* fin list pub */
+  
+  /* debut all boultique css  */
+  
+  .slicer {
+    width: 68.75rem;
+    margin: 0 auto;
+  }
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  @keyframes fade {
+    from {
+      opacity: 0.4;
+    }
+    to {
+      opacity: 0.9;
+    }
+  }
+  
+  .slide {
+    display: none;
+  }
+  .kshop {
+    color: #f96e3f;
+  }
+  .slideInfo {
+    position: absolute;
+    width: 30rem;
+    left: 38rem;
+    top: 12rem;
+    font-size: 3rem;
+  }
+  .allimgslice {
+    width: 67rem;
+    height: 37.5rem;
+  }
+  .allSlice {
+    background-color: black;
+    width: 100%;
+    height: 600px;
+  }
+  .allList {
+    width: 71.25rem;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .titleList {
+    color: black;
+    width: 80px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .allcard {
+    max-width: 40rem;
+    max-height: 40rem;
+    padding: 1rem;
+    display: block;
+    align-items: center;
+    text-align: center;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+  }
+  .allcard:hover > .allhover {
+    opacity: 1;
+  }
+  .allcard:hover {
+    background-color: white;
+    border-radius: 0.3rem;
+    box-shadow: 0.3rem 0.3rem 0.3rem 0.3rem grey;
+  }
+  .allListcard {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70rem;
+    margin-left: 2rem;
+  }
+  .allimgCard {
+    width: 10rem;
+    margin-bottom: 30px;
+    height: 10rem;
+  }
+  .allprice {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+  }
+  .price {
+    margin-right: 2 rem;
+  }
+  .allListInfo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  .okIcon {
+    color: #f96e3f;
+  }
+  .infopr {
+    width: 6rem;
+  }
+  .allhover {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    opacity: 0;
+  }
+  .allbtn {
+    border: none;
+    width: 7rem;
+    height: 2rem;
+    border-radius: 2rem;
+    background-color: #f96e3f;
+    color: white;
+  }
+  .pub {
+    width: 100%;
+    height: 25rem;
+    background-color: rgba(69, 69, 69, 0.773);
+  }
+  .pubimag {
+    height: 15rem;
+    width: 15rem;
+    border-radius: 10rem;
+  }
+  .infoPub {
+    display: flex;
+    justify-content: space-around;
+    padding: 4rem;
+    align-items: center;
+    width: 60rem;
+    width: 71.25rem;
+    margin: 0 auto;
+  }
+  .offr {
+    margin-left: 1.1rem;
+  }
+  .sp {
+    width: 25rem;
+  }
+  .col {
+    color: #f96e3f;
+  }
+  .offf {
+    font-size: 5rem;
+  }
+  .bul {
+    height: 8rem;
+    width: 8rem;
+    border-radius: 10rem;
+    position: absolute;
+    left: 31.5rem;
+    top: 134rem;
+  }
+  .bul2 {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 10rem;
+    position: absolute;
+    left: 46rem;
+    top: 140rem;
+  }
+  .dayscosm {
+    width: 71.25rem;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  .dayList {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .dayCard {
+    width: 20rem;
+    height: 360px;
+    margin: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px 10px rgb(197, 197, 197);
+    text-align: center;
+  }
+  .daysLike {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.2rem;
+    padding: 10px;
+  }
+  .daysPourc {
+    width: 50px;
+    background-color: #f96e3f;
+    height: 20px;
+    text-align: center;
+    color: white;
+  }
+  .DaysinfoListPro {
+    display: block;
+    justify-content: center;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+  .daysinfoPa {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0.5rem;
+    padding: 20px;
+    align-items: center;
+    align-content: center;
+  }
+  .Daysimag img {
+    width: 12.5rem;
+    height: 9.375rem;
+    margin-bottom: 2rem;
+  }
+  .imag {
+    text-align: center;
+  }
+  .daysLikePromo {
+    text-align: center;
+    margin-bottom: 0.2rem;
+    padding: 10px;
+  }
+  .imgScrol {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 100%;
+  }
+  .scrollelemnt {
+    width: 100%;
+    height: 20rem;
+    background-color: rgba(69, 69, 69, 0.773);
+  }
+  .scrolList {
+    width: 68rem;
+    margin: 0 auto;
+    display: flex;
+    overflow: auto;
+    white-space: nowrap;
+    -ms-overflow-style: none;
+    padding: 3rem;
+  }
+  .scrolList::-webkit-scrollbar {
+    display: none;
+  }
+  .alliconClic {
+    width: 25rem;
+    margin: 0 auto;
+  }
+  .allclic1 {
+    margin-right: 10rem;
+  }
+  .clico {
+    display: flex;
+    justify-content: space-around;
+    width: 10rem;
+    margin: 0 auto;
+    background-color: #d9d9d9;
+    border-radius: 5rem;
+  }
+  .callelem {
+    display: flex;
+    width: 15rem;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 2rem;
+  }
+  .callList {
+    display: flex;
+    width: 72.2rem;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 5rem;
+  }
+  .cita1 {
+    width: 30rem;
+    height: 30rem;
+  
+    margin-right: 2rem;
+    border-radius: 2rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../image/cita1.jpeg");
+  }
+  .ci1 {
+    padding-top: 10rem;
+    text-align: center;
+    font-size: 1.7rem;
+    color: white;
+  }
+  .ci2 {
+    padding-top: 10rem;
+    text-align: center;
+    font-size: 1.7rem;
+    color: white;
+  }
+  .cita2 {
+    width: 30rem;
+    height: 30rem;
+    background-color: #af2c2c;
+    margin-right: 2rem;
+    border-radius: 2rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../image/cita2.jpeg");
+  }
+  .citation {
+    width: 72rem;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 3rem;
+  }
+  .partenaire {
+    width: 72rem;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  .parte {
+    height: 5rem;
+    width: 12rem;
+  }
+  /* fin all boultique css  */
+  
+   /* début commande directe */
+   .commande_direct{
+    width: 100%;
+   }
+  
+    /* Fin commande directe */
+  
+    /* début panier */
+    #customers {
+      font-family: Arial, Helvetica, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+    }
+    
+    tr, td{
+      border: 1px solid #303030;
+      text-align: left;
+      height: 50px;
+    }
+   
+     /* FIN panier */
+  
+  /* début footer */
+  
+  footer {
+    margin-top: 20px;
+    width: 100%;
+    height: 100px;
+    background-color: #989898;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .foote {
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+  }
+  /* all-footer */
+  .newletter {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    width: 1140px;
+    height: 120px;
+  }
+  .recev{
+      color: white;
+      width: 200px;
+  }
+  .inputLetter input{
+      border: none;
+      width: 200px;
+      height: 40px;
+      background-color: grey;
+      color: white;
+  }
+  .inputLetter input::placeholder{
+      color: white;
+      text-align: center;
+  }
+  .bouton button{
+      border: none;
+      background-color: #f96e3f;
+      color: white;
+      width: 150px;
+      height: 30px;
+  }
+  .new{
+      width: 1140px;
+      margin: 0 auto;
+      margin-bottom: 10px;
+  }
+  .bottomFooter{
+      padding-top: 20px;
+      display: flex;
+      justify-content: space-around;
+  
+  }
+  .botElem{
+      text-align: center;
+  }
+  .linkInFo{
+      color: black;
+  }
+  .kshopFoot{
+      color: #f96e3f;
+      margin-bottom: 20px; 
+  }
+  .apropos{
+      width: 300px;
+  
+  }
+  .hr{
+      color: black;
+  }
+  /* all-footer */
+  /* fin footer */
+  
+}
+@media screen and (max-width:1400px) {
+  /* acceuil  */
+  .font-black {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../image/women3.jpeg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-origin: padding-box;
+    width: 100%;
+    height: 100vh;
+    padding-top: 0rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+  }
+  .accText{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    padding-top: 20rem;
+}
+  .textAcc {
+    text-align: center;
+    width: 35rem;
+  }
+  .txtAcc {
+    font-size: 40px;
+    padding-top: 50px;
+    margin-bottom: 50px;
+    color: white;
+  }
+  .imgCir {
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    border: 5px solid #f96e3f;
+  }
+  .specia {
+    color: #f96e3f;
+  }
+  .btnSub {
+    width: 150px;
+    height: 50px;
+    font-size: medium;
+    border: none;
+    border-radius: 5px;
+    background-color: #f96e3f;
+    color: white;
+  }
 
-@media screen {
+  /* debut list pub */
+.list {
+  padding-top: 30px;
+}
+.imag img {
+  width: 200px;
+  height: 150px;
+}
+.imag {
+  text-align: center;
+}
+.cardElement {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  -ms-overflow-style: none;
+  display: flex;
+  margin-left: 50px;
+  width: 1000px;
+  overflow: auto;
+  margin: 0 auto;
+}
+.cardElement::-webkit-scrollbar {
+  display: none;
+}
+.cardList {
+  width: 25%;
+  height: 360px;
+  margin: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 10px 10px 10px 10px rgb(197, 197, 197);
+}
+.prixElemnt{
+  display: flex;
+  align-items: center;
+  
+}
+.like {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.pourc {
+  width: 50px;
+  background-color: #f96e3f;
+  height: 20px;
+  text-align: center;
+  color: white;
+}
+.infoListPro {
+  display: block;
+  justify-content: center;
+  margin-bottom: 5px;
+  padding: 20px;
+  width: 150px;
+}
+.infoPa {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 20px;
+}
+.left {
+  float: left;
+  position: absolute;
+}
+
+.ico {
+  display: flex;
+  justify-content: space-between;
+  width: 1145px;
+  position: absolute;
+  top: 80rem;
+  margin: 0 auto;
+}
+.ico i {
+  color: #f96e3f;
+}
+
+.btnp {
+  float: right;
+  width: 100px;
+  height: 50px;
+  border: 2px #f96e3f solid;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.IconColor {
+  color: #f96e3f;
+}
+
+/* fin list pub */
+
+}
+@media screen and (max-width:1200px) {
+  html{
+    font-size: 90%;
+  }
+  /* acceuil  */
+  .font-black {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../image/women3.jpeg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-origin: padding-box;
+    width: 100%;
+    height: 50vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+  }
+  .accText{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 800px;
+    padding-top: 2rem;
+}
+  .textAcc {
+    text-align: center;
+    width: 35rem;
+  }
+  .txtAcc {
+    font-size: 40px;
+    padding-top: 50px;
+    /* margin-bottom: 50px; */
+    color: white;
+  }
+  .imgCir {
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    border: 5px solid #f96e3f;
+  }
+  .specia {
+    color: #f96e3f;
+  }
+  .btnSub {
+    width: 150px;
+    height: 50px;
+    font-size: medium;
+    border: none;
+    border-radius: 5px;
+    background-color: #f96e3f;
+    color: white;
+    margin-right: 20px;
+  }
+
+  /* debut list pub */
+.list {
+  padding-top: 30px;
+}
+.imag img {
+  width: 200px;
+  height: 150px;
+}
+.imag {
+  text-align: center;
+}
+.cardElement {
+  /* overflow-x: scroll;
+  overflow-y: hidden; */
+  /* -ms-overflow-style: none; */
+  display: flex;
+  margin-left: 50px;
+  width: 60rem;
+  flex-wrap: wrap;
+  /* overflow: auto; */
+  margin: 0 auto;
+}
+.cardElement::-webkit-scrollbar {
+  display: none;
+}
+.cardList {
+  width: 25%;
+  height: 360px;
+  margin: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 10px 10px 10px 10px rgb(197, 197, 197);
+}
+.prixElemnt{
+  display: flex;
+  align-items: center;
+  
+}
+.like {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.pourc {
+  width: 50px;
+  background-color: #f96e3f;
+  height: 20px;
+  text-align: center;
+  color: white;
+}
+.infoListPro {
+  display: block;
+  justify-content: center;
+  margin-bottom: 5px;
+  padding: 20px;
+  width: 150px;
+}
+.infoPa {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 20px;
+}
+.left {
+  float: left;
+  position: absolute;
+}
+
+.ico {
+  display: None;
+ 
+}
+
+.ico i {
+  color: #f96e3f;
+}
+
+.btnp {
+  float: right;
+  width: 100px;
+  height: 50px;
+  border: 2px #f96e3f solid;
+  font-size: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+}
+.IconColor {
+  color: #f96e3f;
+}
+
+/* fin list pub */
+
+}
+@media screen and (max-width:850px) {
+  html{
+    font-size: 90%;
+  }
+  /* acceuil  */
+  .font-black {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../image/expo.jpeg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-origin: padding-box;
+    width: 100%;
+    height: 50vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+  }
+  .accText{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 800px;
+    padding-top: 2rem;
+}
+  .textAcc {
+    text-align: center;
+    width: 35rem;
+  }
+  .txtAcc {
+    font-size: 40px;
+    padding-top: 50px;
+    /* margin-bottom: 50px; */
+    color: white;
+  }
+  .imgCir {
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    border: 5px solid #f96e3f;
+  }
+  .specia {
+    color: #f96e3f;
+  }
+  .btnSub {
+    width: 150px;
+    height: 50px;
+    font-size: medium;
+    border: none;
+    border-radius: 5px;
+    background-color: #f96e3f;
+    color: white;
+  }
+
+  /* debut list pub */
+.list {
+  padding-top: 30px;
+}
+.imag img {
+  width: 150px;
+  height: 150px;
+  object-fit: fill;
+}
+.imag {
+  text-align: center;
+}
+.cardElement {
+  display: flex;
+  margin-left: 50px;
+  width: 40rem;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+.cardList {
+  width: 40%;
+  height: 360px;
+  margin: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 10px 10px 10px 10px rgb(197, 197, 197);
+}
+.prixElemnt{
+  display: flex;
+  align-items: center;
+  
+}
+.like {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.pourc {
+  width: 50px;
+  background-color: #f96e3f;
+  height: 20px;
+  text-align: center;
+  color: white;
+}
+.infoListPro {
+  display: block;
+  justify-content: center;
+  margin-bottom: 5px;
+  padding: 20px;
+  width: 150px;
+}
+.infoPa {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 20px;
+}
+.left {
+  float: left;
+  position: absolute;
+}
+
+.ico {
+  display: None;
+ 
+}
+
+.ico i {
+  color: #f96e3f;
+}
+
+.btnp {
+  float: right;
+  width: 100px;
+  height: 50px;
+  border: 2px #f96e3f solid;
+  font-size: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+  margin-right: 20px;
+}
+.IconColor {
+  color: #f96e3f;
+}
+
+/* fin list pub */
+
+}
+@media screen and (max-width:760px) {
+  html{
+    font-size: 60%;
+  }
+  /* fin menu  */
+a {
+  text-decoration: none;
+  color: #f96e3f;
+}
+li {
+  list-style-type: none;
+  margin-left: 30px;
+}
+.logo {
+  margin-left: 10px;
+  align-items: center;
+}
+header {
+  width: 100%;
+  background-color: transparent;
+  height: 70px;
+  position: sticky;
+  box-shadow: 5px 5px 5px;
+}
+.narbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 71.25rem;
+  margin: 0 auto;
+  padding: 20px;
+}
+.menu {
+  display: flex;
+  margin: 10px;
+}
+.menu-list {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 30px;
+}
+.panier {
+  display: flex;
+  justify-content: center;
+  margin-left: 20px;
+}
+.log {
+  margin-right: 10px;
+  display: inline-flex;
+  text-align: center;
+}
+
+/* fin menu  */
+  /* acceuil  */
+  .font-black {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../image/women5.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-origin: padding-box;
+    width: 100%;
+    height: 50vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+  }
+  .accText{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 500px;
+    padding-top: 2rem;
+}
+  .textAcc {
+    text-align: center;
+    width: 35rem;
+  }
+  .txtAcc {
+    font-size: 20px;
+    padding-top: 50px;
+    /* margin-bottom: 50px; */
+    color: white;
+  }
+  .imgCir {
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    border: 5px solid #f96e3f;
+  }
+  .specia {
+    color: #f96e3f;
+  }
+  .btnSub {
+    width: 120px;
+    height: 40px;
+    font-size: small;
+    border: none;
+    border-radius: 5px;
+    background-color: #f96e3f;
+    color: white;
+  }
+
+  /* debut list pub */
+.list {
+  padding-top: 30px;
+}
+.imag img {
+  width: 150px;
+  height: 150px;
+  object-fit: fill;
+}
+.imag {
+  text-align: center;
+}
+.cardElement {
+  display: flex;
+  margin-left: 50px;
+  width: 45rem;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+.cardList {
+  width: 40%;
+  height: 300px;
+  margin: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 10px 10px 10px 10px rgb(197, 197, 197);
+}
+.prixElemnt{
+  display: flex;
+  align-items: center;
+  
+}
+.like {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  padding: 10px;
+}
+.pourc {
+  width: 50px;
+  background-color: #f96e3f;
+  height: 20px;
+  text-align: center;
+  color: white;
+}
+.infoListPro {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 2px;
+  /* padding: 20px; */
+  width: 150px;
+}
+.infoPa {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+.left {
+  float: left;
+  position: absolute;
+}
+
+.ico {
+  display: None;
+ 
+}
+
+.ico i {
+  color: #f96e3f;
+}
+
+.btnp {
+  float: right;
+  width: 100px;
+  height: 50px;
+  border: 2px #f96e3f solid;
+  font-size: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+  margin-right: 20px;
+}
+.IconColor {
+  color: #f96e3f;
+}
+
+/* fin list pub */
+
+}
+@media screen and (max-width:600px) {
+  html{
+    font-size: 50%;
+  }
+  
+/* fin menu  */
+a {
+  text-decoration: none;
+  color: #f96e3f;
+}
+li {
+  list-style-type: none;
+  margin-left: 30px;
+}
+.logo {
+  margin-left: 10px;
+  align-items: center;
+}
+header {
+  width: 100%;
+  background-color: transparent;
+  height: 70px;
+  position: sticky;
+  box-shadow: 5px 5px 5px;
+}
+.narbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 71.25rem;
+  margin: 0 auto;
+  padding: 20px;
+}
+.menu {
+  display: flex;
+  margin: 10px;
+}
+.menu-list {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 30px;
+}
+.panier {
+  display: flex;
+  justify-content: center;
+  margin-left: 20px;
+}
+.log {
+  margin-right: 10px;
+  display: inline-flex;
+  text-align: center;
+}
+
+/* fin menu  */
+
+  /* acceuil  */
+  .font-black {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../image/women5.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-origin: padding-box;
+    width: 100%;
+    height: 50vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+  }
+  .accText{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 500px;
+    padding-top: 2rem;
+}
+  .textAcc {
+    text-align: center;
+    width: 35rem;
+  }
+  .txtAcc {
+    font-size: 20px;
+    padding-top: 50px;
+    /* margin-bottom: 50px; */
+    color: white;
+  }
+  .imgCir {
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    border: 5px solid #f96e3f;
+  }
+  .specia {
+    color: #f96e3f;
+  }
+  .btnSub {
+    width: 120px;
+    height: 40px;
+    font-size: small;
+    border: none;
+    border-radius: 5px;
+    background-color: #f96e3f;
+    color: white;
+  }
+
+  /* debut list pub */
+.list {
+  padding-top: 30px;
+}
+.imag img {
+  width: 150px;
+  height: 150px;
+  object-fit: fill;
+}
+.imag {
+  text-align: center;
+}
+.cardElement {
+  display: flex;
+  margin-left: 50px;
+  width: 40rem;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+.cardList {
+  width: 500px;
+  height: 300px;
+  margin: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 10px 10px 10px 10px rgb(197, 197, 197);
+}
+.prixElemnt{
+  display: flex;
+  align-items: center;
+  
+}
+.like {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  padding: 10px;
+}
+.pourc {
+  width: 50px;
+  background-color: #f96e3f;
+  height: 20px;
+  text-align: center;
+  color: white;
+}
+.infoListPro {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 2px;
+  /* padding: 20px; */
+  width: 150px;
+}
+.infoPa {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+.left {
+  float: left;
+  position: absolute;
+}
+
+.ico {
+  display: None;
+ 
+}
+
+.ico i {
+  color: #f96e3f;
+}
+
+.btnp {
+  float: right;
+  width: 100px;
+  height: 50px;
+  border: 2px #f96e3f solid;
+  font-size: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+  margin-right: 20px;
+}
+.IconColor {
+  color: #f96e3f;
+}
+
+/* fin list pub */
+
 }
