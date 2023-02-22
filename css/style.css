@@ -651,7 +651,7 @@ footer {
 }
 /* all-footer */
 /* fin footer */
-@media screen and (max-width:1900px) {
+@media screen and (max-width:1700px) {
   body{
     font-family: "Inria Serif", serif ;
     flex-direction: column;
