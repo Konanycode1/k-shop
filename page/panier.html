@@ -16,7 +16,22 @@
     />
     <link rel="stylesheet" href="../css/style.css" />
     <title>K-Shop</title>
-   
+   <style>
+      .btnn{
+        width: 150px;
+        height: 30px;
+        color: white;
+        background-color:#f96e3f ;
+        border: none;
+      }
+      .btnDiv{
+        display: flex;
+        justify-content: end;
+      }
+      .mainDiv{
+        padding-top: 20px;
+      }
+   </style>
   </head>
   <body>
     <header class="heade">
@@ -43,38 +58,14 @@
         </div>
       </div>
     </header>
-    <main>
-        <h1>A Fancy Table</h1>
+    <main class="mainDiv">
+        <h1>Panier Commde</h1>
 
         <table id="customers">
-          <tr>
-            <td>Alfreds Futterkiste</td>
-            <td>Maria Anders</td>
-            <td>Germany</td>
-          </tr>
-          <tr>
-            <td>Berglunds snabbköp</td>
-            <td>Christina Berglund</td>
-            <td>Sweden</td>
-          </tr>
-          <tr>
-            <td>Centro comercial Moctezuma</td>
-            <td>Francisco Chang</td>
-            <td>Mexico</td>
-          </tr>
-          <tr>
-            <td>Ernst Handel</td>
-            <td>Roland Mendel</td>
-            <td>Austria</td>
-          </tr>
-          <tr>
-            <td>Ernst Handel</td>
-            <td>Roland Mendel</td>
-            <td>Austria</td>
-          </tr>
-       
-          
         </table>
+        <div class="btnDiv">
+          <button type="submit" class="btnn">Passer la commande</button>
+        </div>
     </main>
     <footer>
       <div class="foote">

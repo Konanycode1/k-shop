@@ -16,7 +16,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     let icoclick = document.querySelectorAll(".fa-heart-o");
     let icon = document.getElementById("icoclick");
-
     icoclick.forEach((clic) =>
       clic.addEventListener("click", (e) => {
         clic.classList.toggle("IconColor");
