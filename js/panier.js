@@ -1,10 +1,18 @@
 function getItem(cle) {
   return localStorage.getItem(cle);
 }
+let bot = document.getElementById("bot");
 let val = document.getElementById("customers");
 valeur = getItem("valeur");
 valeur = JSON.parse(valeur);
-nombre.innerHTML = valeur?.length;
+if(valeur === null){
+  nombre.innerHTML = 0;
+}
+else{
+  nombre.innerHTML = valeur?.length;
+  
+}
+
 
 let i;
 for (i = 0; i <= valeur.length; i++) {
@@ -20,5 +28,6 @@ for (i = 0; i <= valeur.length; i++) {
     <td> <button type="submit" style="background-color:#f96e3f; color:white; width:100px; height:30px; border:none;">Supprimer</button> <button type="submit" style="background-color:green; color:white; width:100px; height:30px; border:none;">Conserver</button></td>
     </tr>`;
     val.innerHTML += text;
+   bot.style.opacity = 1
 }
 

@@ -30,43 +30,45 @@ document.addEventListener("DOMContentLoaded", () => {
   recuperation();
 
   function ajouteNewCosme() {
-    if (user.textContent === username.nomPrenom) {
-      icoClick.forEach((clic) =>
-        clic.addEventListener("click", (e) => {
-          let parent = clic.closest(".allcard");
-          let nomprod = parent.querySelector(".infopr");
-          let prix = parent.querySelector(".prix");
-          //   let cate = parent.querySelector(".infoListPro p");
-          let donnee = [];
-
-          let data = {
-            nomprod: nomprod.textContent,
-            prix: prix.textContent,
-            cate: categorie,
-          };
-          console.log(data)
-          let recup = getItem("valeur");
-          
-          if (recup === null) {
-            recup = [];
-            recup.push(data);
-            setItem("valeur", JSON.stringify(recup));
-            isPass = true;
-            recuperation();
-          } else {
-            recup = JSON.parse(recup)
-            recup.push(data);
-            setItem("valeur", JSON.stringify(recup));
-            isPass = true;
-            recuperation();
-          }
-          // data.push(clic);
-        })
-      );
-      // console.log(nombreAjou)
-    } else {
-      console.log("utilisateur incorrecte");
-    }
+    username.forEach(vues =>{
+      if (user.textContent === vues.nomPrenom) {
+        icoClick.forEach((clic) =>
+          clic.addEventListener("click", (e) => {
+            let parent = clic.closest(".allcard");
+            let nomprod = parent.querySelector(".infopr");
+            let prix = parent.querySelector(".prix");
+            //   let cate = parent.querySelector(".infoListPro p");
+            let donnee = [];
+  
+            let data = {
+              nomprod: nomprod.textContent,
+              prix: prix.textContent,
+              cate: categorie,
+            };
+            let recup = getItem("valeur");
+            
+            if (recup === null) {
+              recup = [];
+              recup.push(data);
+              setItem("valeur", JSON.stringify(recup));
+              isPass = true;
+              recuperation();
+            } else {
+              recup = JSON.parse(recup)
+              recup.push(data);
+              setItem("valeur", JSON.stringify(recup));
+              isPass = true;
+              recuperation();
+            }
+            // data.push(clic);
+          })
+        );
+        // console.log(nombreAjou)
+      } else {
+        console.log("utilisateur incorrecte");
+      }
+    })
+    
   }
   ajouteNewCosme();
 

@@ -51,13 +51,12 @@
           </a>
         </nav>
         <div class="log">
-          <a href="#" class="log"
-            ><i class="fa fa-user-circle-o" style="font-size:25px"></i
-            >Connexion</a
-          >
+          <i class="fa fa-user-circle-o" style="font-size:25px; color: white;"></i
+            >
+          <a href="#" id="userUtil" class="log">Connexion</a>
         </div>
         <div>
-          <button type="button " id="btndeconn" >Déconnexion</button>
+          <button type="button " id="btndeconn" style="width: 7rem; height: 2rem; border: none;" >Déconnexion</button>
         </div>
       </div>
     </header>
@@ -66,7 +65,7 @@
 
         <table id="customers">
         </table>
-        <div class="btnDiv">
+        <div class="btnDiv" id="bot" style="opacity: 0;">
           <button type="submit" id="redir"  class="btnn">Passer la commande</button>
         </div>
     </main>
@@ -93,5 +92,6 @@
       
 </script>
     <script src="../js/panier.js"></script>
+    <script src="../js/authen.js"></script>
   </body>
 </html>
