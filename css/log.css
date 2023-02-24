@@ -1,6 +1,7 @@
 body{
-    max-width: 1140px;
+    max-width: 72rem;
     margin: 0 auto;
+    height: 100vh;
 }
 a{
     text-decoration: none;
@@ -31,11 +32,17 @@ a{
       background-image: url('../image/bglog.jpeg');
       background-repeat: no-repeat;
       background-size: cover;
+      background-position: center;
+
       
   }
   .logBloc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
       padding-top: 200px;
-     width: 500px;
+      max-height: 1000vh;
+      max-width: 150vw;
      margin: 0 auto;
      align-items: center;
      
@@ -44,12 +51,15 @@ a{
       margin-bottom: 30px;
   }
   .forms{
-      text-align: center;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
       background-color: black;
-      height: 25em;
+      width: 25rem;
       padding: 10px;
       border-radius: 20px;
-      width: 400px;
+      
       letter-spacing: 1px;
       transition: all 0.2s linear;
   }
@@ -109,3 +119,9 @@ a{
       transition: all 0.2s linear;
   }
   /* fin signup css  */
+
+  @media screen and (max-width:1072px) {
+
+
+    
+  }
