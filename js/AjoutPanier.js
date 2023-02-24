@@ -29,10 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
     return (nombre.textContent = listePanier?.length);
   }
   recuperation();
-  username.forEach(val =>{
 
-    console.log(val)
-    if (user.textContent === val.nomPrenom) {
       icoClick.forEach((clic) =>
         clic.addEventListener("click", (e) => {
           let parent = clic.closest(".cardList");
@@ -64,13 +61,8 @@ document.addEventListener("DOMContentLoaded", () => {
           // data.push(clic);
         })
       );
-      // console.log(nombreAjou)
-    } else {
-      console.log("utilisateur incorrecte");
-    }
-  
+      
 
-  })
 
 
   

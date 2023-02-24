@@ -30,8 +30,6 @@ document.addEventListener("DOMContentLoaded", () => {
   recuperation();
 
   function ajouteNewCosme() {
-    username.forEach(vues =>{
-      if (user.textContent === vues.nomPrenom) {
         icoClick.forEach((clic) =>
           clic.addEventListener("click", (e) => {
             let parent = clic.closest(".allcard");
@@ -63,11 +61,6 @@ document.addEventListener("DOMContentLoaded", () => {
             // data.push(clic);
           })
         );
-        // console.log(nombreAjou)
-      } else {
-        console.log("utilisateur incorrecte");
-      }
-    })
     
   }
   ajouteNewCosme();

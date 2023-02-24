@@ -28,8 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
   recuperation();
 
   function ajoutDays() {
-    username.forEach((val) => {
-      if (user.textContent === val.nomPrenom) {
+    
         clicIco.forEach((clic) =>
           clic.addEventListener("click", (e) => {
             let parent = clic.closest(".dayCard");
@@ -57,15 +56,10 @@ document.addEventListener("DOMContentLoaded", () => {
               setItem("valeur", JSON.stringify(recup));
               isPass = true;
               recuperation();
-            }
-            // data.push(clic);
+            } 
           })
         );
-        // console.log(nombreAjou)
-      } else {
-        console.log("utilisateur incorrecte");
-      }
-    });
+    
   }
   ajoutDays();
 });
