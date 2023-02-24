@@ -17,9 +17,11 @@ document.addEventListener("DOMContentLoaded", ()=>{
     })
     send.addEventListener("click", ()=>{
         valeur = getItem("user");
+        console.log(valeur)
         if(valeur === null){
-            window.location.href = 'signup.html';
-        }
+           window.location.href = 'signup.html';
+       }
+       else{
         let data = JSON.parse(valeur);
         data.forEach(clic => {
            
@@ -30,7 +32,6 @@ document.addEventListener("DOMContentLoaded", ()=>{
                 sessionLog = true
             }
             else{
-                
                 para.textContent = "Mot de passe incorrect !!!"
             }
         }
@@ -38,6 +39,8 @@ document.addEventListener("DOMContentLoaded", ()=>{
             para.textContent = "Email incorrect!!!, Veuillez vérifier votre mail svp."
         } 
         });
+       }
+       
     })
 
 

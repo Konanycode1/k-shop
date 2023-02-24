@@ -5,7 +5,6 @@ let deco = document.getElementById("deco")
 function  verification() {
     let user = localStorage.getItem('user');
     user = JSON.parse(user);
-    console.log(user)
     if(user != null ){     
         data = localStorage.getItem('user');
         data = JSON.parse(data);
