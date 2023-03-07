@@ -25,7 +25,6 @@ document.addEventListener("DOMContentLoaded", () => {
         if (username.value === clic.email) {
             console.log("ok");
           if (password.value === clic.mdp) {
-
             window.location.href = "../index.html";
             sessionLog = true;
           } else {

@@ -25,7 +25,10 @@
         </div>
         <nav class="menu">
           <ul class="menu-list">
-            <li><a href="#" class="acce active">Accueil</a></li>
+            <li class="acce active"><a href="#" >Accueil</a></li>
+            <li><a href="#">Femme</a> </li>
+            <li><a href="#">Homme</a> </li>
+            <li><a href="#">Enfant</a> </li>
             <li><a href="./page/allBoutik.html">All Boutique</a></li>
             <li><a href="./page/commande.html">Commande directe</a></li>
           </ul>
@@ -42,7 +45,10 @@
           <a href="#" id="userUtil" class="log">connexion</a>
         </div>
         <div id="deco">
-          <button type="button " id="btndeconn"  style="width: 7rem; height: 2rem; border: none"
+          <button
+            type="button "
+            id="btndeconn"
+            style="width: 7rem; height: 2rem; border: none"
           >
             Déconnexion
           </button>
@@ -52,7 +58,34 @@
     <!-- section accueil -->
     <section class="accueil">
       <div class="font-black">
-        <div class="accText">
+        <div class="bulInfo">
+          <div class="info1">
+              <div class="infoPeau">
+                <h3>New: Stop à  la peau sèches Offre toi des produits solaires pour l'eclat de ta peau</h3>
+              
+              </div>
+              <div class="infoEnf">
+                <h1>
+                  Le sourire d'un enfant decoule de sa santé, de la qualité de sa peau 
+                </h1>
+                <h5>Offrez un soin de peau à votre enfant.</h5>
+              </div>
+              <div class="infoHom">
+                <h2>La douceur de ta peau, les contours de ton corps de rêve, ta beauté époustouflante et tes lèvres si douce forment un beau paysage que je ne peux me lasser de contempler.</h2>
+              </div>
+          </div>
+          <div class="info2">
+            <div class="infoFem">
+              <h1>
+                Des cosmétiques naturels adaptés à votre mode de vie, eclatant pour le superflux pour votre beauté
+              </h1>
+              <h5>Votre beauté ressortiras à travers la qualité de votre produit que vous utilisez</h5>
+            </div>
+            <!-- <img class="imgCir" src="./image/women2.jpeg" alt="" /> -->
+          </div>
+         
+        </div>
+        <!-- <div class="accText">
           <div class="textAcc">
             <h5 class="txtAcc">
               <span class="specia">Pour cette semaine, profitez</span> de -50 %
@@ -61,7 +94,8 @@
             <button type="submit" class="btnSub">BENEFICIER</button>
           </div>
           <img class="imgCir" src="./image/women2.jpeg" alt="" />
-        </div>
+        </div> -->
+       
       </div>
     </section>
     <!-- section accueil -->
@@ -363,10 +397,9 @@
       let btndeconn = document.getElementById("btndeconn");
 
       btndeconn.addEventListener("click", () => {
-        window.location.href = "page/login.html";
+        window.location.href = "index.html";
       });
       let btnp = document.getElementById("voir");
-
       btnp.addEventListener("click", () => {
         window.location.href = "./page/allboutik.html";
       });

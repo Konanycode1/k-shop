@@ -20,7 +20,7 @@ main {
 }
 h1,
 h2,
-h3 {
+h3 ,h5{
   color: white;
 }
 #userUtil{
@@ -36,6 +36,9 @@ a {
 li {
   list-style-type: none;
   margin-left: 30px;
+}
+.active{
+  border-bottom: 2px solid black;
 }
 .logo {
   margin-left: 10px;
@@ -55,6 +58,7 @@ header {
   max-width: 71.25rem;
   margin: 0 auto;
   padding: 20px;
+  position: sticky;
 }
 .menu {
   display: flex;
@@ -65,6 +69,16 @@ header {
   justify-content: space-between;
   margin-left: 30px;
 }
+/* .sous{
+  display: none;
+  box-shadow: 0px 1px 2px #CCC;
+  background-color: white;
+}
+nav > ul li:hover .sous{
+display: block;
+align-items: center;
+justify-content: center;
+} */
 .panier {
   display: flex;
   justify-content: center;
@@ -88,12 +102,83 @@ header {
   margin: 0 auto;
   display: flex;
   justify-content: space-around;
+  flex-direction: column;
+}
+.bulInfo{
+  width: 71.25rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+.info1{
+width:50rem;
+display: inline-block;
 }
 .accText{
     display: flex;
     justify-content: space-between;
     width: 1140px;
     padding-top: 10rem;
+}
+.infoPeau{
+  display: flex ;
+  align-items: center;
+  justify-content: center;
+  width: 21.875rem;
+  height: 150px;
+  margin-right: 2rem;
+  margin-bottom: 1.5rem;
+  background-color: #d7d7d733;
+  border-radius: 1.5rem;
+  padding: 1.5rem;
+  box-shadow: 0px 2px 2px 2px #f96e3f ;
+  padding: 2rem;
+}
+.info2{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.infoEnf{
+  width: 21.875rem;
+  height: 150px;
+  background-color: #d7d7d733;
+  border-radius: 1.5rem;
+  padding: 1.5rem;
+  box-shadow: 0px 2px 2px 2px #f96e3f ;
+  margin-bottom: 1.5rem;
+}
+.infoHom{
+  width: 21.875rem;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ height: 200px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../image/women5.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-origin: padding-box;
+  border-radius: 5px;
+  background-color: #d7d7d733;
+  border-radius: 1.5rem;
+  padding: 1.5rem;
+  box-shadow: 0px 2px 2px 2px #f96e3f ;
+  
+}
+.infoFem{
+  width: 21.875rem;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../image/mg15.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-origin: padding-box;
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  box-shadow: 0px 2px 2px 2px #f96e3f ;
 }
 /* .imageAcc{
 
@@ -106,6 +191,7 @@ header {
   text-align: center;
   width: 50rem;
 }
+
 .txtAcc {
   font-size: 60px;
   padding-top: 20px;
