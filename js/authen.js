@@ -1,7 +1,6 @@
 let userUtil = document.getElementById('userUtil')
 let icon = '<i class="fa fa-user-circle-o" style="font-size:25px"></i>'
-let deco = document.getElementById("deco")
-
+let deco = document.getElementById("deco");
 function  verification() {
     let user = localStorage.getItem('user');
     user = JSON.parse(user);
