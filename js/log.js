@@ -25,6 +25,10 @@ document.addEventListener("DOMContentLoaded", () => {
         if (username.value === clic.email) {
             console.log("ok");
           if (password.value === clic.mdp) {
+            localStorage.setItem('seesionShop', JSON.stringify(
+             { user:username.value,
+              token:password.value}
+            ))
             window.location.href = "../index.html";
             sessionLog = true;
           } else {

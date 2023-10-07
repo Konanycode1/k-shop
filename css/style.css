@@ -779,10 +779,10 @@ footer {
   }
   
 }
-@media screen and (max-width: 800px){
+@media screen and (max-width: 900px){
   .narbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     width: 100%;
     margin: 0 auto;
@@ -792,11 +792,114 @@ footer {
   }
   .menu {
     display: flex;
+    position: relative;
     /* margin: 10px; */
   }
   .menu-list {
-    display: flex;
-    justify-content: space-between;
+    width: 20rem;
+    background-color: #f96e3f;
+    display: block;
     margin-left: 30px;
+    position: absolute;
+    text-align: center;
+    left: -90px;
+    top: 50px;
   }
+  .slicer {
+    width:100%;
+    margin: 0 auto;
+}
+.allimgslice{
+  width: 100%;
+}
+.slideInfo {
+  position: absolute;
+  width: 25rem;
+  left: 8rem;
+  top: 12rem;
+  font-size: 3rem;
+}
+.allListcard {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-left: 2rem;
+}
+.allList {
+  width: 100%;
+  margin: 0 auto;
+}
+.infoPub {
+  display: flex;
+  justify-content: space-around;
+  padding: 4rem;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+}
+.puImg{
+  position: relative;
+}
+.bul2 {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 10rem;
+  position: absolute;
+  left: 0rem;
+  top: -2rem;
+}
+.bul {
+  height: 8rem;
+  width: 8rem;
+  border-radius: 10rem;
+  position: absolute;
+  left:9.5rem;
+  top: 9rem;
+}
+.dayscosm {
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+}
+.dayList {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.scrolList {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  overflow: auto;
+  white-space: nowrap;
+  -ms-overflow-style: none;
+  padding: 3rem;
+}
+.scrollelemnt {
+  width: 100%;
+  height: 20rem;
+  overflow: hidden;
+  background-color: rgba(69, 69, 69, 0.773);
+}
+.callList {
+  display: flex;
+  width:100%;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 5rem;
+}
+.citation {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.cita1 {
+  width: 30rem;
+  height: 30rem;
+  margin-right: 2rem;
+  border-radius: 2rem;
+  margin-bottom: 20px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../image/cita1.jpeg);
+}
 }
